@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: auto;
+}
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: black;
+}

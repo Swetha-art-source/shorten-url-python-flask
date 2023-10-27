@@ -1,0 +1,8 @@
+###
+curl -X POST -H "Content-Type: application/json" -d '{"url": "https://python.com"}' http://127.0.0.1:5000/shorten
+
+###
+GET http://127.0.0.1:5000/search?term=python
+
+###
+GET http://127.0.0.1:5000/5840d667

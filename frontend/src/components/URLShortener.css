@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+}
+.heading {
+    font-size: 25px;
+    font-family: Roboto;
+    color: goldenrod;
+}
+.inputfield {
+    width: 500px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 20px;
+    border-style: double;
+    margin-left: 20px;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: goldenrod;
+    color: black;
+    border-radius: 15px;
+    border-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+.result {
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .heading {
+        font-size: 15px;
+    }
+    .inputfield {
+        width: 250px;
+    }
+    .button {
+        width: 90px;
+    }
+}
